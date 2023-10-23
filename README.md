@@ -11,7 +11,7 @@ Inside the notebook, you will find four different estimator approaches, all base
 
 2. **SVD Decomposition:** This method uses Singular Value Decomposition with rank-d approximations. While SVD is valuable for tasks like image compression, it might not be the best choice for movie recommendations due to its high error.
 
-3. **Alternating Estimator:** This model uses an alternating approach with fixed hyperparameters, potentially providing more accurate recommendations.
+3. **Alternating Estimator:** This model uses an alternating approach with fixed hyperparameters, potentially providing more accurate recommendations. It iterates through the same amount of demensions as SVD.
 
 4. **K-Nearest Neighbors (K-NN):** The K-NN approach uses a full hyperparameter grid search to make movie recommendations, offering another useful option.
 
