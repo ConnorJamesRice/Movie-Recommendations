@@ -1,6 +1,23 @@
-# Movie-Recommendations-
-The Google Colab/Jupiter Notebook https://github.com/ConnorJamesRice/PCA-Movie-Recommendations/blob/main/matrix_completion_and_recommendation_systems.ipynb
+# Movie Recommendations
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ConnorJamesRice/PCA-Movie-Recommendations/blob/main/matrix_completion_and_recommendation_systems.ipynb)
 
+This is a trained movie recommendation model using the 100k MovieLens dataset, which is available at [MovieLens](https://grouplens.org/datasets/movielens/100k/) or can be uploaded as 'u.data'. The dataset is in the format of 'user', 'movie', 'ranking', and 'time', but we focus on the first three columns, ignoring the time.
 
-We will use the 100K MovieLens dataset available at https://grouplens.org/datasets/movielens/100k/ to estimate unknown user ratings given their previous ratings through various PCA techniques. The whole Notebook [https://github.com/ConnorJamesRice/Movie-Recommendations-/blob/main/matrix_completion_and_recommendation_systems_started_code_(1).ipynb](https://github.com/ConnorJamesRice/PCA-Movie-Recommendations/blob/main/matrix_completion_and_recommendation_systems.ipynb)https://github.com/ConnorJamesRice/PCA-Movie-Recommendations/blob/main/matrix_completion_and_recommendation_systems.ipynb has what the code looks like, what was preformed for calculations and explanations.
+## Estimator Approaches
+Inside the notebook, you will find four different estimator approaches, all based on PCA models:
+
+1. **Mean Rating Estimator:** This approach calculates the mean of movie rankings, but it may not provide highly useful recommendations.
+
+2. **SVD Decomposition:** This method uses Singular Value Decomposition with rank-d approximations. While SVD is valuable for tasks like image compression, it might not be the best choice for movie recommendations due to its high error.
+
+3. **Alternating Estimator:** This model uses an alternating approach with fixed hyperparameters, potentially providing more accurate recommendations.
+
+4. **K-Nearest Neighbors (K-NN):** The K-NN approach uses a full hyperparameter grid search to make movie recommendations, offering another useful option.
+
+## Notebook Details
+Inside the notebook, you will find detailed explanations of each section, including how the models work and their performance.
+
+Feel free to explore the notebook to gain a deeper understanding of the movie recommendation system and its various approaches.
+
+This formatting should help make your README cleaner and more organized. You can also add more details or improve the content based on your preferences.
