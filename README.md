@@ -1,5 +1,5 @@
 # Movie-Recommendations-
-The Google Colab/Jupiter Notebook https://github.com/ConnorJamesRice/PCA-Movie-Recommendations/tree/main#:~:text=3%20hours%20ago-,matrix_completion_and_recommendation_systems.ipynb,-Rename%20matrix_completion_and_recommendation_systems_started_code_(1
+The Google Colab/Jupiter Notebook https://github.com/ConnorJamesRice/PCA-Movie-Recommendations/tree/main#:~:text=now-,matrix_completion_and_recommendation_systems.ipynb,-Rename%20matrix_completion_and_recommendation_systems_started_code_(1
 
 
 
