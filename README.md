@@ -20,4 +20,3 @@ Inside the notebook, you will find detailed explanations of each section, includ
 
 Feel free to explore the notebook to gain a deeper understanding of the movie recommendation system and its various approaches.
 
-This formatting should help make your README cleaner and more organized. You can also add more details or improve the content based on your preferences.
